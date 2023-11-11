@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family:Arial, Helvetica, sans-serif;
+}
+img {
+    border-radius: 15%;
+}
+body {
+    background:rgb(36, 54, 71);
+    color:#ccc;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    padding: 20px 20%;
+    border-bottom: 1px solid transparent;
+    transition: all .45s ease;
+    background: #1d2a38;
+}
+
+span {
+    color:#CBAF87;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color:#7E8A97;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 25px;
+    transition: all .45s ease;
+}
+
+.navlist a:hover {
+    color: #ccc;
+}
+section {
+   align-items: center;
+   padding-left: 100px;
+}
+
+.home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 60px;
+    
+}
+.about{
+    border-radius: 10px;
+    background-color: #1d2a38;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.myimg{
+    padding: 20px;
+    border-radius: 15%;
+}
+.myimg :hover{
+    transform: scale(1.02);
+}
+.about-pragraph{
+    font-size: 20px;
+    padding: 13px;
+}
+.about-pragraph h3{
+    padding: 20px;
+    color: #ccc;
+    border-left: 5px solid rgb(36, 54, 71);
+    margin: 20px;
+}
+.about p{
+    padding-left: 38px;
+}
+.skills{
+    background-color: rgb(36, 54, 71);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding:10px;
+}
+.skilicon{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+    justify-content:space-between;
+    background: transparent;
+    background-color:#1d2a38;
+    padding: 20px 20%;
+    transition: all .45s ease;
+    border-radius: 10px;  
+    transition: transform 250ms;
+}
+.skilicon a img:hover{
+    transform: scale(1.1);
+}
+
+.skilltitle{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    padding: 20px;
+    font-size: 35px;
+}
+.mycertificate{
+    background-color: rgb(36, 54, 71);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.cericon{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content:space-between;
+    background: transparent;
+    background-color:#1d2a38;
+    padding: 20px 20%;
+    transition: all .45s ease;
+    border-radius: 10px;  
+    transition: transform 250ms;
+}
+.cericon a :hover{
+    transform: scale(1.1);
+}
+.cericon a {
+    color: white;
+    background-color: #2a2a2a;
+    text-decoration: underline;
+}
+.certificatetitle{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    padding: 20px;
+    font-size: 35px;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 4%;
+    left: 0;
+    bottom: 0;
+    background-color:#1d2a38;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.foot p{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.contact{
+    background-color:rgb(36, 54, 71);
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 100px;
+    border-radius: 10px;  
+
+}
+.contacttitle{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+.contactlist{
+    position: relative;
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    background: transparent;
+    background-color:#1d2a38;
+    padding: 15px 20%;
+    transition: all .45s ease;
+    border-radius: 10px;  
+    transition: transform 250ms;
+}
+.contactlist a{
+    padding: 10px;
+    color: white;
+
+}
+.contactlist a:hover{
+    transform: scale(1.1);
+    text-decoration: underline #ccc;
+
+}
+.project{
+    background-color: #1d2a38;
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.project p{
+    padding-bottom: 10px;
+}
+.project a {
+    padding-left: 15px;
+    padding-top: 5px;
+    border-left: 5px solid rgb(36, 54, 71);
+    color: #CBAF87;
+}
+.project a:hover{
+    transform: scale(1.1);
+    text-decoration: underline #ccc;
+}
+.projecttitle{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+
+}
